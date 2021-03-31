@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../font/Roboto-Regular-webfont.eot');
+    src: url('../font/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/Roboto-Regular-webfont.woff2') format('woff2'),
+         url('../font/Roboto-Regular-webfont.woff') format('woff'),
+         url('../font/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('../font/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+    /* background-color: #000; */
+    font-family: 'robotoregular';
+    background-color: #0f0f0f;
+}
+
+.container {
+    box-sizing: border-box;
+}
+
+/* NAVIGASI */
+nav {
+    height: 86px;
+    /* background-color: #1c1c1c; */
+    background-color: #0f0f0f;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo span {
+    margin-left: 66px;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 50px;
+    color: #dedede;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 75px;
+}
+
+nav ul li {
+    margin-left: 44px;
+    font-size: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #B0ABAB;
+}
+
+/* CONTENT */
+.content {
+    margin: 0 auto;
+    /* border: 1px solid white; */
+    width: 90%;
+}
+
+.content .banner {
+    height: 200px;
+    /* border: 1px solid white; */
+    background-color: #B0ABAB;
+}
+
+.content .main {
+    display: flex;
+}
+
+.main .menu {
+    width: 20%;
+    /* border: 1px solid white; */
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #B0ABAB;
+    font-size: 30px;
+}
+
+.main .menu .judul {
+    margin-top: 20px;
+    margin-bottom: 22px;
+    text-align: center;
+    display: block;
+    /* border: 1px solid yellow; */
+
+}
+
+.main .menu .name {
+    display: block;
+    padding: 11px 0;
+    border-bottom: 1px solid #282828;
+    margin-bottom: 20px;
+    padding-left: 11px;
+    font-size: 20px;
+}
+
+.main .menu a {
+    text-decoration: none;
+    color: white;
+}
+
+/* CARDS */
+.main .inside {
+    width: 80%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main .inside .items {
+    width: 200px;
+    /* height: 250px; */
+    /* border: 1px solid #282828; */
+    font-family: 'robotoregular';
+    color: white;
+    border-radius: 5px;
+    margin: 20px 20px;
+}
+
+.main .inside .items .market-place {
+    margin-top: 10px;
+}
+
+.main .inside .items .market-place a {
+    margin-right: 10px;
+}
+
+
+/* BOTTOM */
+.bottom {
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    /* background-color: #313131; */
+    background-color: #0f0f0f;
+    color: #B0ABAB;
+    font-size: 12px;
+    border-top: 1px solid #BCB4B4;
+}
