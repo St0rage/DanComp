@@ -57,7 +57,7 @@ $.ajax({
 	url: '../../data/products.txt',
 	success: (result) => {
 		let data = JSON.parse(result);
-    let processor = data.Processor;
+    let processor = data.processor;
     let cards = '';
     processor.forEach(m => {
       cards += showCards(m);
