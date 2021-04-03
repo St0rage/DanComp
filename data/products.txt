@@ -1,76 +1,76 @@
 {
 	"processor": [{
-			"jenis": "AMD",
+			"jenis": "amd",
 			"nama": "AMD Ryzen 3 3100",
 			"gambar": "../../img/products/processor/3100.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "AMD",
+			"jenis": "amd",
 			"nama": "AMD Ryzen 5 3600",
 			"gambar": "../../img/products/processor/3600.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "AMD",
+			"jenis": "amd",
 			"nama": "AMD Ryzen 7 3700x",
 			"gambar": "../../img/products/processor/3700x.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "AMD",
+			"jenis": "amd",
 			"nama": "AMD Ryzen 9 3900x",
 			"gambar": "../../img/products/processor/3900x.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "AMD",
+			"jenis": "amd",
 			"nama": "AMD Ryzen 3 2200G",
 			"gambar": "../../img/products/processor/2200G.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "AMD",
+			"jenis": "amd",
 			"nama": "AMD Ryzen 5 2400G",
 			"gambar": "../../img/products/processor/2400G.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "INTEL",
+			"jenis": "intel",
 			"nama": "INTEL Core i3 10100",
 			"gambar": "../../img/products/processor/10100.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "INTEL",
+			"jenis": "intel",
 			"nama": "INTEL Core i3 10100f",
 			"gambar": "../../img/products/processor/10100f.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "INTEL",
+			"jenis": "intel",
 			"nama": "INTEL Core i5 10400",
 			"gambar": "../../img/products/processor/10400.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "INTEL",
+			"jenis": "intel",
 			"nama": "INTEL Core i7 10700",
 			"gambar": "../../img/products/processor/10700.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "INTEL",
+			"jenis": "intel",
 			"nama": "INTEL Core i9 10900",
 			"gambar": "../../img/products/processor/10900.png",
 			"tokped": "#",

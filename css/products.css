@@ -86,8 +86,8 @@ nav ul li a {
     margin-bottom: 22px;
     text-align: center;
     display: block;
+    cursor: pointer;
     /* border: 1px solid yellow; */
-
 }
 
 .main .menu .name {
@@ -98,11 +98,7 @@ nav ul li a {
     padding-left: 11px;
     font-size: 20px;
     color: white;
-}
-
-.main .menu a {
-    text-decoration: none;
-    color: white;
+    cursor: pointer;
 }
 
 .box {
