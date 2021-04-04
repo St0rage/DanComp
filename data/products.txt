@@ -252,6 +252,27 @@
 			"gambar": "../../img/products/motherboard/biostar-b460.png",
 			"tokped": "#",
 			"shopee": "#"
+		},
+		{
+			"jenis": "h470",
+			"nama": "ASUS PRIME H470-PLUS",
+			"gambar": "../../img/products/motherboard/asus-h470.png",
+			"tokped": "#",
+			"shopee": "#"
+		},
+		{
+			"jenis": "h470",
+			"nama": "GIGABYTE H470 HD3",
+			"gambar": "../../img/products/motherboard/ga-h470.png",
+			"tokped": "#",
+			"shopee": "#"
+		},
+		{
+			"jenis": "h470",
+			"nama": "ASROCK H470 PHANTOM GAMING 4",
+			"gambar": "../../img/products/motherboard/ga-h470.png",
+			"tokped": "#",
+			"shopee": "#"
 		}
 	]
 }
