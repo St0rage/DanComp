@@ -33,11 +33,8 @@
             </div>
             <div class="main">
                 <div class="menu">
-                    <span class="judul">MOTHERBOARD</span>
-                    <span class="name">
-                        <!-- <a href="">AMD CHIPSET</a> -->
-                        AMD CHIPSET
-                    </span>
+                    <span class="judul nama">MOTHERBOARD</span>
+                    <span class="name nama">AMD CHIPSET</span>
                     <div class="amd-chipset box">
                         <ul>
                             <li>
@@ -74,10 +71,7 @@
                             </li>
                         </ul>
                     </div>
-                    <span class="name">
-                        <!-- <a href="">INTEL CHIPSET</a> -->
-                        INTEL CHIPSET
-                    </span>
+                    <span class="name nama">INTEL CHIPSET</span>
                     <div class="intel-chipset box">
                         <ul>
                             <li>
@@ -121,6 +115,69 @@
         </div> 
     </div>
     
-    <script src="script/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $.ajax({
+	        url: '../../data/products.txt',
+    	    success: (result) => {
+		        let data = JSON.parse(result).motherboard;
+                let motherboard = strConcat(data);
+                // filter
+                $('.nama').on('click', function(e) {
+                    $('input').prop('checked', false);
+                    let key = e.target.innerHTML.toLocaleLowerCase();
+                    if(key === 'motherboard') {
+                        motherboard = strConcat(data);
+                        $('.inside').html(motherboard);
+                    } else {
+                        motherboard = strConcat(data.filter(p => p.jenis === key));
+                        $('.inside').html(motherboard);
+                    }
+                    console.log(key);
+                });
+                // filter checkbox
+                $('input').on('change', function() {
+                    $('input').not(this).prop('checked', false);
+                    let key = this.name.toLocaleLowerCase();
+                    if(key) {
+                        motherboard = strConcat(data.filter(p => p.tipe === key));
+                        $('.inside').html(motherboard);
+                    }
+                    if($(this).prop('checked') == false) {
+                        motherboard = strConcat(data);
+                        $('.inside').html(motherboard);
+                    }
+                    console.log(key);  
+                });
+                $('.inside').html(motherboard);
+	        },
+	        error: (e) => {
+		        console.log(e.responseText);
+	        }
+        });
+
+        function showCards(m) {
+            return `<div class="items">
+                        <img src="${m.gambar}" width="150" height="150">
+                        <span>${m.nama}</span>
+                        <div class="market-place">
+                            <a href="${m.tokped}">
+                                <img src="../../img/logo/tokped2.png" width="40">
+                            </a>
+                            <a href="${m.shopee}">
+                                <img src="../../img/logo/shoppe2.png" width="40">
+                            </a>
+                        </div>
+                    </div>`
+        }
+
+        function strConcat(data) {
+            let cards = '';
+                data.forEach(m => {
+                    cards += showCards(m);
+                });
+            return cards;
+        }
+    </script>
 </body>
 </html>

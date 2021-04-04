@@ -33,9 +33,9 @@
             </div>
             <div class="main">
                 <div class="menu">
-                    <span class="judul">PROCESSOR</span>
-                    <span class="name">AMD</span>
-                    <span class="name">INTEL</span>
+                    <span class="judul nama">PROCESSOR</span>
+                    <span class="name nama">AMD</span>
+                    <span class="name nama">INTEL</span>
                 </div>
                 <div class="inside">
                     
@@ -57,16 +57,13 @@
 		        let data = JSON.parse(result).processor;
                 let processor = strConcat(data);
                 // filter
-                $('.menu').on('click', function(e) {
+                $('.nama').on('click', function(e) {
                     let key = e.target.innerHTML.toLocaleLowerCase();
-                    if(key === 'amd') {
-                        processor = strConcat(data.filter(p => p.jenis === key));
-                        $('.inside').html(processor);
-                    } else if(key === 'intel') {
-                        processor = strConcat(data.filter(p => p.jenis === key));
+                    if(key === 'processor') {
+                        processor = strConcat(data);
                         $('.inside').html(processor);
                     } else {
-                        processor = strConcat(data);
+                        processor = strConcat(data.filter(p => p.jenis === key));
                         $('.inside').html(processor);
                     }
                 });

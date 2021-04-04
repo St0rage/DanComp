@@ -79,196 +79,224 @@
 	],
     
 	"motherboard": [{
-			"jenis": "a320",
+			"jenis" : "amd chipset",
+			"tipe": "a320",
 			"nama": "ASUS PRIME A320M-K",
 			"gambar": "../../img/products/motherboard/asus-a320.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "a320",
+			"jenis" : "amd chipset",
+			"tipe": "a320",
 			"nama": "GA-A320M-S2H",
 			"gambar": "../../img/products/motherboard/ga-a320.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "a320",
+			"jenis" : "amd chipset",
+			"tipe": "a320",
 			"nama": "MSI A320M-A PRO",
 			"gambar": "../../img/products/motherboard/msi-a320.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "a320",
+			"jenis" : "amd chipset",
+			"tipe": "a320",
 			"nama": "ASROCK A320M-HDV",
 			"gambar": "../../img/products/motherboard/asrock-a320.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "a320",
+			"jenis" : "amd chipset",
+			"tipe": "a320",
 			"nama": "BIOSTAR A320MH",
 			"gambar": "../../img/products/motherboard/biostar-a320.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "b350",
+			"jenis" : "amd chipset",
+			"tipe": "b350",
 			"nama": "ASUS PRIME B350-PLUS",
 			"gambar": "../../img/products/motherboard/asus-b350.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "b350",
+			"jenis" : "amd chipset",
+			"tipe": "b350",
 			"nama": "GA-AB350M-GAMING 3",
 			"gambar": "../../img/products/motherboard/ga-b350.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "b350",
+			"jenis" : "amd chipset",
+			"tipe": "b350",
 			"nama": "MSI B350 TOMAHAWK PLUS",
 			"gambar": "../../img/products/motherboard/msi-b350.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "b350",
+			"jenis" : "amd chipset",
+			"tipe": "b350",
 			"nama": "ASROCK AB350 PRO4",
 			"gambar": "../../img/products/motherboard/asrock-b350.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "b350",
+			"jenis" : "amd chipset",
+			"tipe": "b350",
 			"nama": "BIOSTAR B350GT5",
 			"gambar": "../../img/products/motherboard/biostar-b350.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "x370",
+			"jenis" : "amd chipset",
+			"tipe": "x370",
 			"nama": "ASUS PRIME X370-PRO",
 			"gambar": "../../img/products/motherboard/asus-x370.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "x370",
+			"jenis" : "amd chipset",
+			"tipe": "x370",
 			"nama": "GA-AX370-GAMING K7",
 			"gambar": "../../img/products/motherboard/ga-x370.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "x370",
+			"jenis" : "amd chipset",
+			"tipe": "x370",
 			"nama": "MSI X370 GAMING PLUS",
 			"gambar": "../../img/products/motherboard/msi-x370.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "x370",
+			"jenis" : "amd chipset",
+			"tipe": "x370",
 			"nama": "ASROCK X370 PRO4",
 			"gambar": "../../img/products/motherboard/asrock-x370.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "x370",
+			"jenis" : "amd chipset",
+			"tipe": "x370",
 			"nama": "BIOSTAR X370GT7",
 			"gambar": "../../img/products/motherboard/biostar-x370.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "h410",
+			"jenis" : "intel chipset",
+			"tipe": "h410",
 			"nama": "ASUS PRIME H410M-K",
 			"gambar": "../../img/products/motherboard/asus-h410.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "h410",
+			"jenis" : "intel chipset",
+			"tipe": "h410",
 			"nama": "GIGABYTE H410M H",
 			"gambar": "../../img/products/motherboard/ga-h410.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "h410",
+			"jenis" : "intel chipset",
+			"tipe": "h410",
 			"nama": "MSI H410M PRO",
 			"gambar": "../../img/products/motherboard/msi-h410.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "h410",
+			"jenis" : "intel chipset",
+			"tipe": "h410",
 			"nama": "ASROCK H410M-HDV",
 			"gambar": "../../img/products/motherboard/asrock-h410.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "h410",
+			"jenis" : "intel chipset",
+			"tipe": "h410",
 			"nama": "BIOSTAR H410MHG",
 			"gambar": "../../img/products/motherboard/biostar-h410.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "b460",
+			"jenis" : "intel chipset",
+			"tipe": "b460",
 			"nama": "ASUS TUF GAMING B460-PLUS",
 			"gambar": "../../img/products/motherboard/asus-b460.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "b460",
+			"jenis" : "intel chipset",
+			"tipe": "b460",
 			"nama": "GIGABYTE B460 AORUS PRO AC",
 			"gambar": "../../img/products/motherboard/ga-b460.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "b460",
+			"jenis" : "intel chipset",
+			"tipe": "b460",
 			"nama": "MSI MAG B460 TOMAHAWK",
 			"gambar": "../../img/products/motherboard/msi-b460.png",
 			"tokped": "#",
 			"shopee": "#"
 		}, 
 		{
-			"jenis": "b460",
+			"jenis" : "intel chipset",
+			"tipe": "b460",
 			"nama": "ASROCK B460 Steel Legend",
 			"gambar": "../../img/products/motherboard/asrock-b460.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "b460",
+			"jenis" : "intel chipset",
+			"tipe": "b460",
 			"nama": "BIOSTAR B460GTA",
 			"gambar": "../../img/products/motherboard/biostar-b460.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "h470",
+			"jenis" : "intel chipset",
+			"tipe": "h470",
 			"nama": "ASUS PRIME H470-PLUS",
 			"gambar": "../../img/products/motherboard/asus-h470.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "h470",
+			"jenis" : "intel chipset",
+			"tipe": "h470",
 			"nama": "GIGABYTE H470 HD3",
 			"gambar": "../../img/products/motherboard/ga-h470.png",
 			"tokped": "#",
 			"shopee": "#"
 		},
 		{
-			"jenis": "h470",
+			"jenis" : "intel chipset",
+			"tipe": "h470",
 			"nama": "ASROCK H470 PHANTOM GAMING 4",
 			"gambar": "../../img/products/motherboard/ga-h470.png",
 			"tokped": "#",
