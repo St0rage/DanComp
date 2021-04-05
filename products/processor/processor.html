@@ -20,13 +20,35 @@
                 <span>DanComp</span>
             </div>
             <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">TENTANG</a></li>
-                <li><a href="">PRODUCTS</a></li>
-                <li><a href="">MARKET-PLACE</a></li>
+                <li>HOME</li>
+                <li>TENTANG</li>
+                <li onclick="hoverBox()">PRODUCTS</li>
+                <li>MARKET-PLACE</li>
             </ul>
         </nav>
-        
+        <!-- HOVER BOX NAVIGASI -->
+        <div id="hover-box" class="hover-toggle" >
+            <div class="list">
+                <ul>
+                    <li><a href="">MOTHERBOARD</a></li>
+                    <li><a href="">GRAPHIC CARD</a></li>
+                    <li><a href="">PROCESSOR</a></li>
+                    <li><a href="">MEMORY</a></li>
+                    <li><a href="">STORAGE</a></li>
+                    <li><a href="">POWER SUPPLY</a></li>
+                    <li><a href="">CASE</a></li>
+                    <li><a href="">MONITOR</a></li>
+                    <li><a href="">LAPTOP</a></li>
+                    <li><a href="">CPU COOLING</a></li>
+                    <li><a href="">FAN</a></li>
+                    <li><a href="">ACCESSORIES</a></li>
+                </ul>
+            </div>
+            <div class="list-img">
+                <img src="img/items/processor.png" width="200">
+            </div>
+        </div>
+
         <div class="content">
             <div class="banner">
 
@@ -50,6 +72,7 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="../../script/products.js"></script>
     <script>
         $.ajax({
 	        url: '../../data/products.txt',

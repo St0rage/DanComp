@@ -49,11 +49,56 @@ nav ul {
 nav ul li {
     margin-left: 44px;
     font-size: 15px;
+    color: #B0ABAB;
+    cursor: pointer;
 }
 
-nav ul li a {
+/* HOVER BOX NAVIGASI */
+
+/* ANIMASI HOVER BOX */
+.hover-toggle {
+    display: none;
+}
+
+.hover-products {
+    width: 520px;
+    /* height: 100px; */
+    background-color: #313131;
+    border: 1px solid #0f0f0f;
+    position: absolute;
+    z-index: 999999;
+    top: 60px;
+    right: 0;
+    margin-right: 10px;
+    display: flex;
+}
+
+.hover-products .list {
+    padding: 20px;
+    border-right: 1px solid black;
+    font-size: 13px;
+}
+
+.hover-products .list ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;;
+}
+
+.hover-products .list ul li {
+    margin-bottom: 20px;
+}
+
+.hover-products .list ul li a {
     text-decoration: none;
-    color: #B0ABAB;
+    color: white;
+}
+
+.hover-products .list-img {
+    width: 468px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* CONTENT */
