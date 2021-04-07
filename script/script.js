@@ -69,6 +69,6 @@ let listImg = document.querySelector('.list-img').firstElementChild;
 hoverLi.forEach(e => {
     e.addEventListener('mouseover', () => {
         let text = e.firstElementChild.textContent.toLocaleLowerCase();
-        listImg.setAttribute('src', `img/items/${text}.png`);
+        listImg.setAttribute('src', `img/items/hover/${text}.png`);
     });
 })
