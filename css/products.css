@@ -53,29 +53,42 @@ nav ul li {
     cursor: pointer;
 }
 
-/* HOVER BOX NAVIGASI */
+nav ul li a {
+    text-decoration: none;
+    color: #B0ABAB;
+}
 
 /* ANIMASI HOVER BOX */
 .hover-toggle {
     display: none;
 }
 
+@keyframes hoverBox {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* HOVER BOX NAVIGASI */
 .hover-products {
     width: 520px;
-    /* height: 100px; */
-    background-color: #313131;
-    border: 1px solid #0f0f0f;
+    background-color: #0f0f0f;
     position: absolute;
     z-index: 999999;
     top: 60px;
     right: 0;
     margin-right: 10px;
     display: flex;
+    animation: hoverBox .5s;
 }
 
 .hover-products .list {
     padding: 20px;
-    border-right: 1px solid black;
+    border-right: 1px dashed #313131;
     font-size: 13px;
 }
 
@@ -99,6 +112,25 @@ nav ul li {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.hover-market-place {
+    /* background-color: #313131; */
+    background-color: #0f0f0f;
+    position: absolute;
+    z-index: 999999;
+    top: 60px;
+    right: 0;
+    margin-right: 28px;
+    border: 1px solid #0f0f0f;
+    display: flex;
+    flex-direction: column;
+    animation: hoverBox .5s;
+}
+
+.hover-market-place a {
+    text-decoration: none;
+    margin: 5px 0;
 }
 
 /* CONTENT */
