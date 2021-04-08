@@ -17,4 +17,9 @@ hoverLi.forEach(e => {
         let text = e.firstElementChild.textContent.toLocaleLowerCase();
         listImg.setAttribute('src', `../../img/items/hover/${text}.png`);
     });
-})
+});
+
+// BANNER BACKGROUND
+let banner = document.querySelector('.banner');
+let bannerName = banner.getAttribute('name');
+banner.style.backgroundImage = `url('../../img/banner/banner-products/${bannerName}.jpg')`;

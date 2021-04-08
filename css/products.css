@@ -143,7 +143,9 @@ nav ul li a {
 .content .banner {
     height: 200px;
     /* border: 1px solid white; */
-    background-color: #B0ABAB;
+    /* background: url('../img/banner/banner-products/processor.jpg'); */
+    background-position: center;
+    background-size: cover;
 }
 
 .content .main {
